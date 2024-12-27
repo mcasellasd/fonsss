@@ -1,1 +1,1 @@
-web: gunicorn fonsss:fonsss
+web: streamlit run dash.py --server.port $PORT --server.address 0.0.0.0
