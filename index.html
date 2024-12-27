@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assistent Investigador</title>
+</head>
+<body>
+    <h1>Consulta ISIN</h1>
+    <input type="text" id="isin" placeholder="Entra el codi ISIN">
+    <button onclick="investigaISIN()">Investigar</button>
+    <p id="resultat"></p>
+
+    <script>
+        async function investigaISIN() {
+            const isin = document.getElementById('isin').value;
+            try {
+                const response = await fetch('http://127.0.0.1:5000/assistents/investigador', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ isin: isin })
+                });
+                const data = await response.json();
+                if (response.ok) {
+                    document.getElementById('resultat').innerText = data.result;
+                } else {
+                    document.getElementById('resultat').innerText = `Error: ${data.error}`;
+                }
+            } catch (error) {
+                console.error(error);
+                document.getElementById('resultat').innerText = `Error de xarxa: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

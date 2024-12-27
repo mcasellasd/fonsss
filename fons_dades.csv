@@ -1,0 +1,17 @@
+ISIN,Nom del Fons,Empreses Principals,Distribució Geogràfica,Distribució Actius,Comissions (%),Benchmark,Pes Relatiu (%),Nivell de Risc
+LU0034353002,DWS FLOAT RATE NOTES,"DWS ESG Money Market, Swedbank AB, BNP Paribas Cardif","Eurozona: 81.31%, Efectiu: 17.01%","Renda Fixa: 70%, Efectiu: 30%",0.75,Euribor + Spread,10,3
+LU0113257694,SISF EUR CORPORATE BOND,"Germany Federal Bonds, JPMorgan, MSD Netherlands","Eurozona: 87.83%, Efectiu: 9.85%","Renda Fixa: 87.83%, Efectiu: 9.85%",0.85,Euribor + Spread,8,3
+LU0599946893,DWS CONCEPT KALDEMORGEN,Flexible Allocation (sense posicions fixes),Global (flexible),Multiactiu (Flexible),1.5,MSCI World,12,5
+LU0218171717,JPM US SELECT EQ A EUR,"Apple, Microsoft, Amazon",Estats Units (alta concentració),Renda Variable: 100%,1.0,S&P 500,15,6
+IE00B4468526,POLAR CAPITAL GLOBAL TECHNOLOGY R EUR,"Apple, NVIDIA, Samsung",Global (tecnologia),"Tecnologia: 60%, Comunicacions: 30%",1.2,MSCI Tech Index,5,6
+LU1769942233,DWS INVEST CROCI JAPAN,"Toyota, Sony, Nintendo",Japó 100%,Renda Variable (Japó): 100%,0.9,Nikkei 225,10,6
+LU0203975437,ROBECO GLOBAL PREMIUM,"Alphabet, Roche, Microsoft",Global (diversificada),"Tecnologia: 40%, Salut: 35%, Energia: 25%",1.1,MSCI ACWI,6,5
+LU0171307068,BGF WORLD HEALTHSCIENCE FUND A2 EUR,"UnitedHealth, Eli Lilly, AbbVie","Estats Units: 76.86%, Europa: 17.44%",Salut: 100%,1.4,MSCI Health Index,8,6
+LU0232524495,AB - AMERICAN GROWTH PORTFOLIO A EUR ACC,"Apple, Microsoft, Amazon",Estats Units 100%,Renda Variable: 100%,1.0,S&P 500,9,5
+LU1295551144,CAPITAL GROUP NEW PERSPECTIVE FUND (LUX) B EUR,"Tesla, Alphabet, Roche","Global (tecnologia, salut, consum)","Tecnologia: 50%, Salut: 30%, Consum: 20%",1.3,MSCI ACWI,7,4
+ES0174013021,CREAND RTA. FIXA MIXTA,No disponible,Zona Euro,"Renda Fixa: 70%, Altres: 30%",0.7,MSCI Europe,4,3
+IE00B3K83P04,POLAR CAP-HEALTH,"UnitedHealth, Johnson & Johnson, Pfizer",Estats Units,Salut: 100%,1.5,MSCI Health Index,6,6
+IE00B03HCZ61,"VANG, GLOB, STK","Apple, Microsoft, Alphabet",Global,Renda Variable Global,0.9,MSCI ACWI,5,6
+IE0031786142,VANG-EMRG IND,"Tencent, Samsung, Alibaba",Mercats Emergents,Mercats Emergents,1.2,MSCI Emerging Markets,8,6
+LU0072462426,BLACKROCK GLOBAL FUND,"Amazon, Tesla, Roche",Global,Multiactiu (Flexible),0.95,MSCI ACWI,8,5
+LU0599946893,DWS CONCEPT KALDEMORGEN,Flexible Allocation (sense posicions fixes),Global (flexible),Renda Variable Global,1.0,MSCI World,10,5
